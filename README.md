@@ -1,7 +1,7 @@
-hello_world-formula
+elasticyumrepo-formula
 ================
 
-This is an example Xentaurs workshop project for SaltStack, Vagrant, and ServerSpec integration
+This is salt formula to manage the git repos from Elastic for Kibana 
 
 Available states
 ================
@@ -17,7 +17,7 @@ Available states
 .. contents::
     :local:
 
-``hello_world``
+``elasticyumrepo``
 -------------
 
-Installs the apache2 package, manages the index page, and starts the apache2 service. 
+Installs the GPG key for the Elastic repo and manages the /etc/yum/yum.repos.d configuration. 
